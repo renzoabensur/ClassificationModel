@@ -1,0 +1,10 @@
+{
+  "short_name": "ClassificationModel",
+  "name": "Classification Model",
+  "description": "Uma breve descrição do meu app",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "classificationmodel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/renzoabensur/ClassificationModel.git"
+  },
+  "author": "Renzo Abensur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renzoabensur/ClassificationModel/issues"
+  },
+  "homepage": "https://github.com/renzoabensur/ClassificationModel#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
