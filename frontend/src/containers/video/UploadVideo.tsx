@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState } from 'react';
 import '../../styles/video.css'
 
-const Video: React.FC = () => {
+const UploadVideo: React.FC = () => {
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const [stream, setStream] = useState<MediaStream | null>(null);
 
@@ -36,11 +36,11 @@ const Video: React.FC = () => {
     <div className="video-container">
       <video ref={videoRef} width="620" height="460" autoPlay />
       {stream ? 
-        <button onClick={stopVideo}>Stop Video</button> :
-        <button onClick={startVideo}>Start Video</button>
+        <button onClick={stopVideo}>Stop UploadVideo</button> :
+        <button onClick={startVideo}>Start UploadVideo</button>
       }
     </div>
   );
 }
 
-export default Video;
+export default UploadVideo;
