@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Video from '../video/Video';
+import RealTime from '../video/RealTime';
 import TopMenu from '../menu/TopMenu'
 
 function Homepage() {
@@ -8,7 +9,8 @@ function Homepage() {
       <header className="Homepage-header">
         <div>
           <TopMenu/>
-          <Video />
+          {/* <Video /> */}
+          <RealTime />
         </div>
       </header>
     </div>
